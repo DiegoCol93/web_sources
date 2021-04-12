@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    background-color: #1C1C1C;
+    height: 100vh;
+    width: 100vw;
+    display : flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+/* Animates the text color lighting it up. - - - - - - - - - - - - - - - - - */
+@keyframes light_up {
+    from {color: #888888;}
+    to {color: #FFFFFF;}
+}
+.box:hover {
+    animation: light_up 0.5s linear 0s 1 normal forwards;
+}
+
+/* Animates the text color lighting it down. - - - - - - - - - - - - - - - - */
+@keyframes light_down {
+    from {color: #FFFFFF;}
+    to {color: #888888;}
+}
+.box {
+    animation: light_down 0.5s linear 0s 1 normal forwards;
+}
+
+/* Footer properties - - - - - - - - - - - - - - - - - - - - - - - - - - - -*/
+footer {
+    position: absolute;
+    width: 100vw;
+    right: 0;
+    bottom: 5px;
+    font-size: 1em;
+    color: #888888;
+}
+
+/* Text properties. - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+h1 {
+    font-size: 14em;
+}
+
+p {
+    font-size: 1em;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* @media (prefers-color-scheme: dark) { */
+/*     main { */
+/*         background-color: #1C1C1C; */
+/*     } */
+/* } */
+
+/* @media (prefers-color-scheme: light) { */
+/*     main { */
+/*         background-color: #FFFFFF; */
+/*     } */
+/* } */
