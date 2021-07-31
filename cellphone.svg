@@ -1,8 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" height="40px" width="40px">
   <style>
-    .phone-border{fill:#1C1C1C;}
-    .phone-border:hover{fill:#AAAAAA}
-    .phone-screen{fill:#FFFFFF;}
+    .phone-border{fill:#AAAAAA;}
+    .phone-screen{fill:#1C1C1C;}
     .phone-screen:hover{fill:#91B8DB;}
   </style>
   <title>Cellphone</title>
